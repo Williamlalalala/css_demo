@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<link rel="stylesheet" type="text/css" href="./positionstick/test.css">
+	<link rel="stylesheet" type="text/css" href="./activeball/test.css">
+</head>
+<body>
+<div id="app"><!-- v-bind:class="[{'background-color':color.color}]"-->
+	<div v-for="count in count"  class="stick">
+			<p class="stick first">{{count.digtial}}</p>
+	</div>
+</div>
+	<h1 id="title">Simple Avoidance</h1>
+<h1 id="instruction">Press Mouse to Explode</h1>
+	<script src="https://cdn.bootcss.com/vue/2.5.15/vue.js"></script>
+	<script src="./positionstick/test.js"></script>
+	<script src="./activeball/test.js"></script>
+</body>
+</html>

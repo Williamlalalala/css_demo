@@ -1,0 +1,13 @@
+.stick{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	margin: 50px;
+	width: 80%;
+	left: 10%;
+	height: 200px;
+	background-color: gray;
+}
+.stick p{
+	text-align: center;
+}
